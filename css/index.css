@@ -1,0 +1,329 @@
+/* ---------------- */
+.main {
+  width: 1200px;
+  margin: 16px auto;
+}
+
+.rolling {
+  width: 1200px;
+  height: 276px;
+  background-color: #fff;
+  padding-top: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+}
+
+.rolling .box {
+  text-align: center;
+  cursor: pointer;
+}
+
+.rolling .box .pic {
+  width: 160px;
+  height: 160px;
+  line-height: 16px;
+  vertical-align: middle;
+  border-radius: 80px;
+  border: 2px solid #ebebeb;
+}
+
+.rolling .box .pic:hover {
+  border-color: #ccd9e8;
+}
+
+.rolling .box .pic img {
+  margin-top: 30px;
+  transform: rotate(360deg);
+  transition: 0.5s;
+}
+
+.rolling .box span {
+  display: block;
+  margin-top: 20px;
+}
+
+.rolling .box:hover .pic img {
+  transform: rotate(0deg);
+}
+
+.rolling .box:hover span {
+  font-weight: bold;
+}
+
+
+
+
+/* ---------------------------------------------------- */
+/*
+/*解决方案和最新动态
+/*
+/* ---------------------------------------------------- */
+.call-board {
+  width: 1200px;
+  height: 447px;
+  margin-top: 10px;
+  background-color: #d9eaf3;
+}
+
+.call-board .solution,
+.call-board .news {
+  width: 50%;
+  display: inline-block;
+  padding: 25px 30px 50px 19px;
+  box-sizing: border-box;
+}
+
+.solution .title {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  vertical-align: middle;
+}
+
+.title .title-btn {
+  width: 115px;
+  height: 38px;
+  line-height: 38px;
+  vertical-align: middle;
+  text-align: center;
+  color: #fff;
+  background-color: #fe9a00;
+  border-radius: 19px;
+  display: block;
+  text-decoration: none;
+  float: left;
+}
+
+.title .more {
+  display: block;
+  float: right;
+  color: #8c8c8c;
+  font-size: 14px;
+}
+
+.list ul {
+  padding-left: 15px;
+}
+
+.solution-list {
+  width: 540px;
+  height: 54px;
+  list-style: none;
+  margin-top: 25px;
+}
+.item-img {
+  width: 70px;
+  height: 50px;
+  display: inline-block;
+}
+.item-img a img {
+  width: 70px;
+  height: 50px;
+}
+.item-info {
+  display: inline-block;
+  width: 455px;
+  height: 50px;
+  margin-left: 10px;
+  vertical-align: top;
+}
+.item-info a {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 16px;
+  color: #333;
+}
+.item-info span {
+  display: block;
+  width: 450px;
+  height: 12px;
+  line-height: 12px;
+  font-size: 12px;
+  margin-top: 10px;
+  color: #8fa8b5;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+
+
+/* ---------------------------------------------------- */
+/*
+/*合作伙伴
+/*
+/* ---------------------------------------------------- */
+.partner {
+  width: 1200px;
+  height: 368px;
+  border-top: 3px solid #ffd795;
+  background-color: #fff;
+  position: relative;
+}
+
+.partner .partner-title-btn {
+  position: absolute;
+  width: 75px;
+  height: 40px;
+  line-height: 40px;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  top: -19px;
+  left: 40px;
+  background-color: #fe9a00;
+}
+
+.btn-des-block::before,
+.btn-des-block::after {
+  content: "";
+  height: 0px;
+  width: 0px;
+  position: absolute;
+}
+
+.partner .partner-title-btn::before {
+  border-top: 20px solid transparent;
+  border-right: 20px solid #fe9a00;
+  left: -20px;
+}
+
+.partner .partner-title-btn::after {
+  border-top: 20px solid transparent;
+  border-left: 20px solid #fe9a00;
+  right: -20px;
+}
+
+.partner .partner-title-btn span::before {
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid #fe9a00;
+  top: 20px;
+  left: -20px;
+}
+
+.partner .partner-title-btn span::after {
+  border-bottom: 20px solid transparent;
+  border-left: 20px solid #fe9a00;
+  top: 20px;
+  right: -20px;
+}
+
+.partner ul {
+  list-style: none;
+  padding: 0;
+  position: relative;
+  /* width: 1150px; */
+  /* box-sizing: border-box; */
+  margin: 20px auto;
+  text-align: center;
+}
+
+.partner li {
+  display: inline-block;
+  padding: 12px 15px;
+  margin: 0 auto;
+}
+
+.partner li a {
+  display: block;
+  width: 198px;
+  height: 88px;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.partner li a:hover img {
+  transform: scale(1.2, 1.2);
+}
+
+.partner li a img {
+  height: 88px;
+  width: 198px;
+  display: inline-block;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+....
