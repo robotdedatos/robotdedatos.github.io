@@ -51,7 +51,8 @@ header {
 .navigation ul {
   display: inline-block;
   margin: 0;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
+  float: right;
   padding: 0;
 }
 

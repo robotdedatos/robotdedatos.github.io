@@ -58,6 +58,10 @@
 
 .side-menu ul li {
   height:34px;
+  line-height: 16px;
+  /* width: 100%; */
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
   box-sizing: border-box;
   list-style-type: square;
   color: #ccc;
